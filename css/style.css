@@ -604,8 +604,8 @@ button:hover {
   color: var(--bg-white);
 }
 .frame-bottom-two {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+
   gap: 24px;
 }
 
@@ -636,7 +636,6 @@ button:hover {
 }
 @media (max-width: 750px) {
   .frame-bottom-two {
-    grid-template-columns: 1fr;
     justify-content: center;
   }
   .frame-top > .frame-top-h1__btn h2 {
